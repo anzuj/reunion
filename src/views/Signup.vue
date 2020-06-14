@@ -1,16 +1,16 @@
 <template>
   <div>
-    <v-card min-height="600" class="pa-10 mainCard text-center">
+    <v-card min-height="600" class="pt-10 mainCard text-center">
 
       <!-- <v-toolbar dark color="blue darken-4" class="text-center">
  Tickets info
       </v-toolbar> -->
       <div class="myTitle">
-      Ticket info
+     Sign up
       </div>
       <v-divider></v-divider>
 
-      <v-card-text>
+      <v-card-text class="pa-10">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt in quaerat aperiam ea hic voluptatum, eaque placeat. <br> Voluptates dicta mollitia unde dolorum ab fugiat delectus ipsam possimus rem facere molestias?
       </v-card-text>
 
@@ -21,6 +21,14 @@
   </v-col>
 
 </v-row>
+
+
+
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflaTqKs06MSpJK05cj3WmkELqNV4Z7_L8D-PusaNufyu3uwQ/viewform?embedded=true" width="100%" height="1490" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+
+
 
 
     </v-card>

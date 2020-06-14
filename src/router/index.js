@@ -26,9 +26,9 @@ Vue.use(VueRouter)
     component: () => import('../views/Contact.vue')
   },
   {
-    path: '/tickets',
-    name: 'Tickets',
-    component: () => import('../views/Tickets.vue')
+    path: '/signup',
+    name: 'Sign up',
+    component: () => import('../views/Signup.vue')
   }
 ]
 

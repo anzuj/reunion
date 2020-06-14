@@ -10,7 +10,7 @@
       <v-container class="px-0">
 
 <nav>
-        <v-row justify="center">
+        <v-row justify="center" class="mx-0">
      
       <v-btn active-class="activeBtn" v-for="(item, i) in menuItems" :key="i" class="mx-2" dark x-large color="orange darken-2" router :to="item.href">
         <span class="btn-text">{{item.text}}</span></v-btn>
@@ -39,7 +39,7 @@ export default {
     menuItems: [
       { text: "Home", href: "/" },
       { text: "Gameplay", href: "/gameplay" },
-      { text: "Tickets", href: "/tickets" },
+      { text: "Sign up", href: "/signup" },
       { text: "Contact", href: "/contact" }
     ]
   })
