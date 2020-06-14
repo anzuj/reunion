@@ -12,7 +12,7 @@
 <nav>
         <v-row justify="center">
      
-      <v-btn v-for="(item, i) in menuItems" :key="i" class="ml-1 mb-1" dark x-large color="orange darken-2" router :to="item.href">
+      <v-btn active-class="activeBtn" v-for="(item, i) in menuItems" :key="i" class="mx-2" dark x-large color="orange darken-2" router :to="item.href">
         <span class="btn-text">{{item.text}}</span></v-btn>
             <!-- <v-img v-if="i<menuItems.length-1" :src="require('@/assets/images/planet.png' )" width="30" contain id="label"></v-img> -->
         </v-row>
@@ -47,6 +47,20 @@ export default {
 </script>
 
 <style>
+/* .v-btn .v-btn--active, .router-link-active {
+  background-color: white !important;
+  background: white !important;
+} */
+.activeBtn {
+  margin-left: -4px !important;
+ margin-top: 5px !important;
+transform: scale(1.1) skewX(-15deg) !important;
+z-index: 9000;
+}
+
+/* .v-btn--router--active:before {
+ background-color: rgb(96, 103, 186) !important;
+} */
 
 nav .v-btn{
   transform: skewX(-15deg);
@@ -88,16 +102,5 @@ nav .btn-text{
 .mainCard{
   background-color: rgba(255, 255, 255, 0.85) !important;
 }
-/* div.menuWrapper .v-btn {
 
-  height: 60px;
-  width: 100%;
-  background: url("~@/assets/images/menulabel.png") no-repeat center center;
-  background-size: 100%;
-  transition: filter 0.2s linear;
-}
-
-div.menuWrapper .v-btn:hover {
-  filter: brightness(120%);
-} */
 </style>
