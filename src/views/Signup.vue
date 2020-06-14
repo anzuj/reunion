@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card min-height="600" class="pt-10 mainCard text-center">
+    <v-card min-height="600" class="quick-fade-in pt-10 mainCard text-center">
 
       <!-- <v-toolbar dark color="blue darken-4" class="text-center">
  Tickets info
@@ -22,9 +22,9 @@
 
 </v-row>
 
-
-
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflaTqKs06MSpJK05cj3WmkELqNV4Z7_L8D-PusaNufyu3uwQ/viewform?embedded=true" width="100%" height="1490" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div class="fade-in">
+  <iframe  src="https://docs.google.com/forms/d/e/1FAIpQLSflaTqKs06MSpJK05cj3WmkELqNV4Z7_L8D-PusaNufyu3uwQ/viewform?embedded=true" width="100%" height="1490" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
 
 
 
@@ -43,7 +43,7 @@
   font-weight: bold;
   font-size: 30px;
   top: 120px;
-  z-index: 9000;
+  z-index: 10;
   right: 95px;
 }
 .myTitle{

@@ -6,7 +6,7 @@
 <v-img :src="require('@/assets/images/label.png' )" max-width="200" contain id="label"></v-img> -->
 
       <v-col align="center">
-        <v-card id="intro" tile class="py-16">
+        <v-card id="intro" tile class="quick-fade-in  py-16">
        <div class="blue--text text--lighten-4 text-button">28th Aug - 30th Aug 2020</div>
  <div id="larpTitle" class="mt-6 text-h4 text-md-h1 orange--text text--lighten-3">Cosmic Class Reunion</div>
  <div id="larp" >LARP</div>
@@ -65,13 +65,7 @@ export default {
   font-weight: 300;
   letter-spacing: 0.6px;
 }
-/*
-#blob{
-  position: absolute;
-  width:90%;
-  z-index: 0;
-  margin: 0 auto;
-} */
+
 #intro {
   color: white !important;
   background: rgba(26, 17, 75, 0.85);

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card min-height="600" class="pa-10 mainCard text-center">
+    <v-card min-height="600" class="quick-fade-in pa-10 mainCard text-center">
 
       <!-- <v-toolbar dark color="blue darken-4" class="text-center">
  Tickets info
