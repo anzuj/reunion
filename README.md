@@ -1,5 +1,8 @@
 # reunion
 
+Change default fonts:
+\node_modules\vuetify\src\styles\settings\_variables.scss
+
 ## Project setup
 ```
 npm install
