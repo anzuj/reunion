@@ -14,8 +14,7 @@
       </v-row>-->
 
 <div>
-<!-- v-show="$vuetify.breakpoint.xs" -->
-  <v-app-bar-nav-icon  dark color="secondary lighten-2" @click="drawer = !drawer"></v-app-bar-nav-icon>
+  <v-app-bar-nav-icon v-show="$vuetify.breakpoint.xs" dark color="secondary lighten-2" @click="drawer = !drawer"></v-app-bar-nav-icon>
 
     <v-navigation-drawer v-model="drawer" absolute dark temporary color="primary" style="z-index: 9000;">
         <v-list nav dense>
