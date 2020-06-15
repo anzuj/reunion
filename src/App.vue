@@ -16,7 +16,7 @@
 <div>
   <v-app-bar-nav-icon v-show="$vuetify.breakpoint.xs" dark color="secondary lighten-2" @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-    <v-navigation-drawer v-model="drawer" absolute dark temporary color="primary" style="z-index: 9000;">
+    <v-navigation-drawer v-model="drawer" absolute dark app bottom temporary color="primary" style="z-index: 9000;">
         <v-list nav dense>
           <v-list-item-group active-class="purple--text text--lighten-3">
             <v-list-item :href="`/#${item.href}`" v-for="(item, i) in menuItems" :key="i">
