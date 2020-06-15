@@ -1,17 +1,6 @@
 <template>
   <div id="app">
     <v-app>
-      <!-- <v-row align="center" class="mb-6" no-gutters>
-        <v-col style="max-width:40px" v-show="$vuetify.breakpoint.xs">
-          <v-app-bar-nav-icon dark color="secondary lighten-2" @click="drawer = true"></v-app-bar-nav-icon>
-        </v-col>
-        <v-col>
-          <h1
-            id="larpsubTitle"
-            class="white--text text-center font-weight-regular"
-          >Cosmic Class Reunion</h1>
-        </v-col>
-      </v-row>-->
 
 <div>
   <v-app-bar-nav-icon v-show="$vuetify.breakpoint.xs" dark color="secondary lighten-2" @click="drawer = !drawer"></v-app-bar-nav-icon>
